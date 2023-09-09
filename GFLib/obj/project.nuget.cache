@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PIpw8IKhV9ZrV9+zDakS6yrLhgH8WNfYqDsAqiMU5KsozquLLwhRoi7JxT3S9krvIdonqCSyQUiG8RLWxq2Xng==",
+  "dgSpecHash": "gF8FnNojmp3jAcZe7cTfVrFFmRT958OKuylNqFzYiWCUHkejeJBvetD1ZtF6bjJGP7gVVksJIRieBiwuuxghMg==",
   "success": true,
   "projectFilePath": "C:\\Fork_reposis\\GeometryLib\\GFLib\\GFLib.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\artem\\.nuget\\packages\\mstest.testframework\\3.1.1\\mstest.testframework.3.1.1.nupkg.sha512"
+  ],
   "logs": []
 }

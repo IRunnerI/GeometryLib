@@ -2,7 +2,7 @@
 
 namespace GFLib
 {
-    public class Circle : IFigure
+    internal class Circle : MyFigure,IFigure
     {
         public double radius {
             get {
@@ -18,42 +18,41 @@ namespace GFLib
                 }
             }
         }
-        public double Perimeter {
-            get {
-                return SolvePerimeter();
-            }
-            
-        }
-        public double Area 
-            {
-            get {
-                return SolveArea();
-            }
-            
-        }
         public Circle(int radius = 0) 
         {
-            
+            this.radius = radius;
         }
-        public Circle(float radius = 0) {
-
-        }
-        public Circle(double radius = 0) {
-
-        }
-        public Circle(short radius = 0) {
-
-        }
-        public Circle(object radius) {
-
-
-        }
-        private double SolveArea() 
+        public Circle(float radius = 0) 
         {
+            this.radius = radius;
+        }
+        public Circle(double radius = 0) 
+        {
+            this.radius = radius;
+        }
+        public Circle(short radius = 0)
+        {
+            this.radius = radius;
+        }
+        public Circle(string radius) 
+        {
+            try
+            {
+                this.radius = Convert.ToDouble(radius);
+            }
+            catch 
+            {
+                throw new ArgumentException("Please enter a valid value");
+            }
 
         }
-        private double SolvePerimeter() {
-
+        public override double CalculateArea() 
+        {
+            return Math.PI * radius * radius;
+        }
+        public override double CalculatePerimeter() 
+        {
+            return 2 * Math.PI * radius;
         }
 
     }

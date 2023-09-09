@@ -1,13 +1,30 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace GFLib
 {
     internal abstract class MyFigure : IFigure
     {
+        public double Perimeter {
+            get {
+                return CalculatePerimeter();
+            }
+
+        }
+        public double Area {
+            get {
+                return CalculateArea();
+            }
+
+        }
+        public virtual double CalculateArea() 
+        {
+            return Area;
+        }
+
+        public virtual double CalculatePerimeter() 
+            {
+            return Perimeter;
+        }
 
     }
 }

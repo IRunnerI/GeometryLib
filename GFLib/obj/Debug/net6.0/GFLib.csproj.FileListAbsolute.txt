@@ -1,0 +1,15 @@
+C:\Fork_reposis\GeometryLib\GFLib\obj\Debug\net6.0\GFLib.csproj.AssemblyReference.cache
+C:\Fork_reposis\GeometryLib\GFLib\obj\Debug\net6.0\GFLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Fork_reposis\GeometryLib\GFLib\obj\Debug\net6.0\GFLib.AssemblyInfoInputs.cache
+C:\Fork_reposis\GeometryLib\GFLib\obj\Debug\net6.0\GFLib.AssemblyInfo.cs
+C:\Fork_reposis\GeometryLib\GFLib\obj\Debug\net6.0\GFLib.csproj.CoreCompileInputs.cache
+C:\Fork_reposis\GeometryLib\GFLib\bin\Debug\net6.0\GFLib.deps.json
+C:\Fork_reposis\GeometryLib\GFLib\bin\Debug\net6.0\GFLib.dll
+C:\Fork_reposis\GeometryLib\GFLib\bin\Debug\net6.0\GFLib.pdb
+C:\Fork_reposis\GeometryLib\GFLib\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Fork_reposis\GeometryLib\GFLib\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Fork_reposis\GeometryLib\GFLib\obj\Debug\net6.0\GFLib.csproj.CopyComplete
+C:\Fork_reposis\GeometryLib\GFLib\obj\Debug\net6.0\GFLib.dll
+C:\Fork_reposis\GeometryLib\GFLib\obj\Debug\net6.0\refint\GFLib.dll
+C:\Fork_reposis\GeometryLib\GFLib\obj\Debug\net6.0\GFLib.pdb
+C:\Fork_reposis\GeometryLib\GFLib\obj\Debug\net6.0\ref\GFLib.dll
