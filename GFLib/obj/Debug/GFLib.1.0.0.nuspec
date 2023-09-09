@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GFLib</id>
+    <version>1.0.0</version>
+    <authors>GFLib</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="MSTest.TestFramework" version="3.1.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Fork_reposis\GeometryLib\GFLib\bin\Debug\net6.0\GFLib.dll" target="lib\net6.0\GFLib.dll" />
+  </files>
+</package>

@@ -2,7 +2,7 @@
 
 namespace GFLib
 {
-    internal class Circle : MyFigure,IFigure
+    public class Circle : MyFigure,IFigure
     {
         public double radius {
             get {

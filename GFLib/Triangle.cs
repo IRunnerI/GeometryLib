@@ -2,7 +2,7 @@
 
 namespace GFLib
 {
-    internal class Triangle : MyFigure,IFigure
+    public class Triangle : MyFigure,IFigure
     {
         private double Leg1 {
             get {

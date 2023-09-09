@@ -2,7 +2,7 @@
 
 namespace GFLib
 {
-    internal abstract class MyFigure : IFigure
+    public abstract class MyFigure : IFigure
     {
         public double Perimeter {
             get {

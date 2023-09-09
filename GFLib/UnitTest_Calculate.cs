@@ -4,7 +4,7 @@ using System;
 namespace GFLib
 {
     [TestClass]
-    public class UnitTest11
+    public class UnitTest_Calculate
     {
         [TestMethod]
         public void MyTestMethod() {
