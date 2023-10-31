@@ -1,6 +1,4 @@
-﻿
-
-namespace GFLib
+﻿namespace GFLib.Interfaces
 {
     public interface IFigure
     {

@@ -79,13 +79,13 @@ namespace GFLib
         public static double AreaTriangle(double Leg1, double Leg2, double angle) 
         {
 
-            double Leg3 = Math.Sqrt(Leg1 * Leg1 + Leg2 * Leg2 - 2 * Leg1 * Leg2 * Math.Cos(angle));
+            double Leg3 = Math.Sqrt(Leg1 * Leg1 + Leg2 * Leg2 - 2 * Leg1 * Leg2 * Math.Cos(ToRadians(angle)));
             double p = PerimeterTriangle(Leg1, Leg2, angle) / 2;
             return Math.Sqrt(p * (p - Leg1) * (p - Leg2) * (p - Leg3));
         }
         public static double PerimeterTriangle(double Leg1, double Leg2, double angle) 
         {
-            double Leg3 = Math.Sqrt(Leg1 * Leg1 + Leg2 * Leg2 - 2 * Leg1 * Leg2 * Math.Cos(angle));
+            double Leg3 = Math.Sqrt(Leg1 * Leg1 + Leg2 * Leg2 - 2 * Leg1 * Leg2 * Math.Cos(ToRadians(angle)));
             return Leg1 + Leg2 + Leg3;
         }
         public static double AreaTriangle(string Leg1, string Leg2, string angle) {
@@ -95,7 +95,7 @@ namespace GFLib
                 double leg1 = Convert.ToDouble(Leg1);
                 double leg2 = Convert.ToDouble(Leg2);
                 double angle1 = Convert.ToDouble(angle);
-                double Leg3 = Math.Sqrt(leg1 * leg1 + leg2 * leg2 - 2 * leg1 * leg2 * Math.Cos(angle1));
+                double Leg3 = Math.Sqrt(leg1 * leg1 + leg2 * leg2 - 2 * leg1 * leg2 * Math.Cos(ToRadians(angle1)));
                 double p = PerimeterTriangle(Leg1, Leg2, angle) / 2;
                 return Math.Sqrt(p * (p - leg1) * (p - leg2) * (p - Leg3));
             }
@@ -110,9 +110,11 @@ namespace GFLib
             double leg1 = Convert.ToDouble(Leg1);
             double leg2 = Convert.ToDouble(Leg2);
             double angle1 = Convert.ToDouble(angle);
-            double Leg3 = Math.Sqrt(leg1 * leg1 + leg2 * leg2 - 2 * leg1 * leg2 * Math.Cos(angle1));
+            double Leg3 = Math.Sqrt(leg1 * leg1 + leg2 * leg2 - 2 * leg1 * leg2 * Math.Cos(ToRadians(angle1)));
             return leg1 + leg2 + Leg3;
         }
-
+        public static double ToRadians(double angle) {
+            return angle * Math.PI / 180.0;
+        }
     }
 }
