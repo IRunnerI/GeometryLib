@@ -1,6 +1,6 @@
 ﻿
 
-namespace GFLib
+namespace GFLib.Classes
 {
     public static class Сalculate
     {
