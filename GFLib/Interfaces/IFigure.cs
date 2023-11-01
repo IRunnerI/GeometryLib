@@ -4,6 +4,5 @@
     {
         public double Perimeter { get; }
         public double Area { get; }
-
     }
 }
