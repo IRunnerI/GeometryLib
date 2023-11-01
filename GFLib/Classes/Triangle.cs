@@ -177,7 +177,7 @@ namespace GFLib.Classes
             triangle.Leg3 = Leg1 * Math.Sin(angle2) / Math.Sin(triangle.angle3);
             return triangle;
         }
-        public bool isRight()
+        public bool isRight() //проверка на прямоугольность
         {
             try
             {
